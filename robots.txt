@@ -1,38 +1,24 @@
 User-agent: *
 Allow: /
-Host: www.lakibircasino.ru
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Clean-param: ref / 
+Clean-param: utm_source&gclid / 
+
+Host: lakibircasino.ru
 Sitemap: https://lakibircasino.ru/sitemap.xml
 
+# Запрет мусорным ботам
 User-agent: AhrefsBot
 Disallow: /
-
 User-agent: SemrushBot
 Disallow: /
-
 User-agent: MJ12bot
 Disallow: /
-
-User-agent: DotBot
-Disallow: /
-
-User-agent: PetalBot
-Disallow: /
-
 User-agent: BLEXBot
 Disallow: /
-
 User-agent: MauiBot
 Disallow: /
-
-User-agent: CCBot
+User-agent: DotBot
 Disallow: /
-
-User-agent: YandexImages
-Disallow: /
-
-User-agent: *Mozilla*
-Disallow: /
-
-User-agent: *
-Crawl-delay: 10
-Disallow:
